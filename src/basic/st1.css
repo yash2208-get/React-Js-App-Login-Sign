@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+.tab {
+    overflow: hidden;
+    /* background-color: aqua; */
+    /* width: 30rem; */
+    /* border-radius: 0.4rem; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .tab button {
+    background-color: inherit;
+    float: left;
+    box-shadow: 10px 57px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 57px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 57px 5px 0px rgba(0,0,0,0.75);
+    border: none;
+    outline: none;
+    text-transform: capitalize;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+  
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  .tab button.active {
+    background-color: #ccc;
+  }
+  .img-size{
+    /* width: 20rem; */
+    height: 13rem;
+    background-size: cover;
+  }
